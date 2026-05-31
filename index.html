@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <section class="sign-up">
+      <div class="form-container">
+        <div class="form-header">
+          <div class="form-title">
+            <h3 class="package">Premium</h3>
+            <h3 class="price">$199<span class="subscription">/month</span></h3>
+          </div>
+          <p class="description">Faster Instagram Growth</p>
+        </div>
+
+        <form action="#" class="sign-up-form">
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Cardholder Name" />
+          <div class="card-input">
+            <input type="text" placeholder="Card Number" />
+            <img src="./images/card-icon.svg" class="card-icon" />
+          </div>
+          <div class="group-inputs">
+            <input class="wide-input" type="text" placeholder="Date" />
+            <input class="small-input" type="number" placeholder="CVV" />
+          </div>
+          <div class="group-inputs">
+            <div class="select-wrapper">
+              <select class="wide-input" id="country">
+                <option value="country">Country</option>
+              </select>
+              <img src="./images/chevron-down.svg" />
+            </div>
+            <input class="small-input" type="text" placeholder="ZIP" />
+          </div>
+          <input type="text" placeholder="Discount Code" />
+          <label class="terms">
+            <input class="checkbox" type="checkbox" />
+            <span class="custom-checkbox"></span>
+            <span>
+              I accept the <a href="#">Terms of Service</a> and
+              <a href="#">Privacy Policy</a>
+            </span>
+          </label>
+
+          <button type="submit" class="primary-btn">
+            Get started | $199 <span class="discount"> $249 </span>
+          </button>
+          <button class="tertiary-btn">Have a coupon?</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
